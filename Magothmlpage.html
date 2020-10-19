@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mago html activity</title>
+</head>
+<style>
+    .table{
+        border: 1px solid black;
+        width: 100%;
+    }
+    table thead td{
+        border: 1px solid black;
+        text-align: center;
+    }
+    .table thead tr td h1{
+        margin: 0 auto;
+    }
+    .table tbody td{
+        border: 1px solid black;
+    }
+    .header {
+        color: white;
+        position: absolute;
+        top: 50%;
+        width: 45%;
+        text-align: center;
+        font-size: 30px;
+    }
+     .signature {
+        color: black;
+        position: absolute;
+        top: 10%;
+        width: 25%;
+        text-align: center;
+        font-size: 20px;
+    }
+</style>
+<body>
+    <div class="content">
+        <table class="table">
+            <thead>
+                <tr>
+                    <td style="width: 20%; max-width: 20%;"><h1>Header1</h1></td>
+                    <td style="width: 30%; max-width: 30%;"><h1>Header2</h1></td>
+                    <td style="width: 50%; max-width: 50%;"><h1>Header3</h1></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><div style="padding: 1px;">
+                        This cell contains a list
+                        <ul> 
+                            <li>Apple</li>
+                            <li>Banana</li>
+                        </ul>
+                    </div></td>
+                    <td>
+                        <div style="padding: 1px;">
+                            This cell contains a table
+                            <table style="border: 1px solid black;">
+                                <tr>
+                                    <td> A</td>
+                                    <td>B</td>
+                                </tr>
+                                <tr>
+                                    <td>C</td>
+                                    <td>D</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                    <td rowspan="2">
+                        <div>
+                            <img src="pussychat.jpeg" alt="img" width="100%" height="100%" style="position: relative; min-height: 100%;" >
+                            <h4 class="header">when i'm bored to waiting someone</h4>
+                            <p class="signature">@Magohtmlpage</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div style="padding: 2px;">
+                            This cell contains a list
+                            <ol>
+                                <li>apples</li>
+                                <li>banana</li>
+                              </ol>  
+                        </div>
+                    </td>
+                    <td>
+                        <div style="padding: 2px;">
+                            <i><u>row 1, cell<sup>2</sup></u></i>
+                            <a href="https://web.facebook.com/hjoven.mago">Here a link to facebook.com</a>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <br>
+</body>
+</html>
